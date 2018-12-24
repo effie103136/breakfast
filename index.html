@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>早餐點餐</title>
   <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
 
     <div class="meal">
       <div>
-        <img src="http://cdn.clm02.com/ezvivi.com/236830/236830_1.jpg" class="meal-photo" alt="">
+        <img src="http://cdn.clm02.com/ezvivi.com/236830/236830_1.jpg" class="meal-photo img-fluid rounded border border-success" alt="">
       </div>
 
       <div>
@@ -21,7 +22,7 @@
 
       <div>
         <strong>數量</strong>
-        <select>
+        <select class="form-control">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -50,7 +51,7 @@
 
       <div>
         <strong>總金額</strong>
-        <input type="text"> <span>元</span>
+        <input type="text" class="form-control"> <span>元</span>
       </div>
     </div>
 
